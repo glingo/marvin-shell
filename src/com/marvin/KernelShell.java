@@ -23,6 +23,7 @@ public class KernelShell {
     public KernelShell(Kernel kernel) {
         this.kernel = kernel;
     }
+    
     public void handle(BufferedReader reader, Writer writer) throws Exception {
 
         String line = reader.readLine();
