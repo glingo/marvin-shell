@@ -55,7 +55,4 @@ public class MethodReference {
         return Arrays.deepEquals(this.arguments, other.arguments);
     }
 
-    
-    
-    
 }
